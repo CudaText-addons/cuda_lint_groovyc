@@ -3,3 +3,4 @@ title=Linter for Groovy, using groovyc
 desc=Linter for CudaLint, adds support for Groovy lexer, uses groovyc
 type=cudatext-plugin
 subdir=cuda_lint_groovyc
+homepage=https://github.com/CudaText-addons/cuda_lint_groovyc
