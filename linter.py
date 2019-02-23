@@ -6,8 +6,7 @@ from cuda_lint import Linter
 if os.name=='nt':
     GROOVY_BINARY = 'groovyc.bat'
 else:
-    #GROOVY_BINARY = 'groovyc'
-    GROOVY_BINARY = '/home/user/Downloads/groovy-3.0.0-alpha-4/bin/groovyc'
+    GROOVY_BINARY = 'groovyc'
 
 fn_config = os.path.join(app.app_path(app.APP_DIR_SETTINGS), 'cuda_lint_groovyc.ini')
 
